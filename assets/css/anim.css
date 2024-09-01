@@ -1,0 +1,33 @@
+@keyframes roll-Title {
+    0%{
+        left: -100%;
+    }    
+
+    100%{
+        left: 10%;
+    }    
+}
+
+@keyframes roll-THR {
+    0%{
+        margin-top: -100%;
+    }
+
+    50%{
+        margin-top: 10%;
+    }
+
+    100%{
+        margin-top: 0%;
+    }    
+}
+
+@keyframes roll-Bt {
+    0%{
+        left: -100%;
+    }    
+
+    100%{
+        left: 13%;
+    }    
+}

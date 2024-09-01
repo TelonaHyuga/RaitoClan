@@ -1,0 +1,36 @@
+.TableTH {
+    height: 20%;
+    width: 20%;
+    transition: all .25s;
+    border-radius: 5%;
+}
+
+.TableTH:hover {
+    height: 50%;
+    width: 50%;
+}
+
+.TitleBoxMini {
+    color: var(--TCO);
+    text-shadow: var(--TCOS);
+    padding: 1%;
+    font-family: 'Minecraft 1.1';
+}
+
+.money {
+    color: var(--TCS);
+    text-shadow: var(--TCSS);
+    font-family: 'Minecraft 1.1';
+}
+
+.wrapper {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}

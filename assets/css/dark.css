@@ -1,0 +1,22 @@
+body {
+    background-color: var(--BacCol);
+}
+
+:root {
+    --TCO: rgb(0, 88, 189);
+    --TCOS: 0 10px 10px rgb(83, 83, 83);
+    --TCS: rgb(138, 43, 226);
+    --TCSS: 0 10px 10px rgb(83, 83, 83);
+    --BC: rgb(192, 192, 192);
+    --BCS: 0 -15px 10px rgb(192, 192, 192);
+    --BacCol: rgb(255, 255, 255);
+}
+:root[t-theme='dark'] {
+    --TCO: rgb(255, 108, 108);
+    --TCOS: 0 10px 10px rgb(197, 35, 35);
+    --TCS: rgb(138, 43, 226);
+    --TCSS: 0 10px 10px rgb(106, 34, 173);
+    --BC: rgb(46, 46, 46);
+    --BCS: 0 -15px 10px rgb(46, 46, 46);
+    --BacCol: rgb(58, 58, 58);
+}

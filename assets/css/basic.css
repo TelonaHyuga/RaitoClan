@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Minecraft 1.1";
+    src: url("../language/minecraft-1-1.ttf");
+  }
+
+body {
+    transition: background-color 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Minecraft 1.1';
+}
+
+p {
+    color: var(--TCO);
+    text-shadow: var(--TCOS);
+    font-size: 1em;
+    font-family: 'Minecraft 1.1';
+}
+
+.Text {
+    font-family: 'Minecraft 1.1'; /*! шрифт */
+    font-size: 2em;
+}
+
+.BG1 {
+    position: relative;
+    padding-top: 15%;
+    margin-top: 50%;
+}
+
+.BG1-2 {
+    margin-top: 15%;
+    position: relative;
+}
+
+.TitleP {
+    font-family: 'Minecraft 1.1';
+    font-size: 5em;
+    position: relative;
+    text-align: center;
+    top: 2%;
+    color: var(--TCO);
+    text-shadow: var(--TCOS);
+}
+
+.bar {
+    position: absolute;
+    margin-top: 5%;
+    left: 0;
+    width: 100%;
+    box-shadow: var(--BCS);
+    background-color: var(--BC);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.linkBar {
+    margin-top: 2%;
+    border-radius: 50%;
+    box-shadow: -5px 5px 10px rgb(0, 0, 0);
+}
+
+.logoBar {
+    width: 35%;
+}
