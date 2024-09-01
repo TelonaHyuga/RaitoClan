@@ -1,0 +1,28 @@
+.Table {
+    position: relative;
+    margin-left: 15%;
+}
+
+.TableTH {
+    position: relative;
+    height: 20%;
+    width: 20%;
+    transition: all .25s;
+}
+
+.TableTH:hover {
+    height: 50%;
+    width: 50%;
+}
+
+.TableTHN {
+    position: relative;
+    height: 30%;
+    width: 30%;
+    transition: all .25s;
+}
+
+.TableTHN:hover {
+    height: 60%;
+    width: 60%;
+}
